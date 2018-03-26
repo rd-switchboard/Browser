@@ -117,10 +117,10 @@
                 <xsl:when test="@type = 'doi'">
                     <xsl:choose>       
                         <xsl:when test="string-length(substring-after(.,'doi.org/'))>1">
-                            <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="substring-after(.,'doi.org/')"/>
+                            <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="substring-after(.,'doi.org/')"/>
                         </xsl:when>          
                         <xsl:otherwise>
-                            <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="."/>
+                            <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="."/>
                         </xsl:otherwise>   
                     </xsl:choose>
                 </xsl:when>

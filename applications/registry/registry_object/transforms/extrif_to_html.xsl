@@ -518,7 +518,7 @@
 	  					<xsl:if test="string-length(substring-after(.,'10.'))>0">		
 	      				<a>
 						<xsl:attribute name="target"><xsl:text>_blank</xsl:text></xsl:attribute>
-	    				<xsl:attribute name="href"><xsl:text>http://dx.doi.org/</xsl:text> <xsl:value-of select="$theidentifier"/></xsl:attribute>
+	    				<xsl:attribute name="href"><xsl:text>https://doi.org/</xsl:text> <xsl:value-of select="$theidentifier"/></xsl:attribute>
 	    				<xsl:attribute name="title"><xsl:text>Resolve this DOI</xsl:text></xsl:attribute>    				
 	    				<xsl:value-of select="."/>
 	    				</a> 		 <br />

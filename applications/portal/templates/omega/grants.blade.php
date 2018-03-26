@@ -61,13 +61,13 @@
                     <div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="NHMRC">
                         <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0s">
                             <div class="element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia image-filter-onhover">
-                               <a href="{{ portal_url('view') }}?key=http://dx.doi.org/10.13039/501100000925" class="figure-image magnific-vimeo" data-links="" target="_self" tip="">
+                               <a href="{{ portal_url('view') }}?key=https://doi.org/10.13039/501100000925" class="figure-image magnific-vimeo" data-links="" target="_self" tip="">
                                   <img src="{{ asset_url('images/NHMRC-logo3.jpg', 'core')}}" alt="" class="normalwidth logo-homepage">
                                 </a>
                             </div>
                             <div class="figure-caption text-center">
                                 <h3 class="figure-caption-title bordered bordered-small bordered-link">
-                                  <a href="{{ portal_url('view') }}?key=http://dx.doi.org/10.13039/501100000925" target="_self">NHMRC</a>
+                                  <a href="{{ portal_url('view') }}?key=https://doi.org/10.13039/501100000925" target="_self">NHMRC</a>
                                 </h3>
                             </div>
                         </div>
@@ -75,13 +75,13 @@
                     <div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="NHMRC">
                         <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia fade-in image-filter-onhover animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0s">
                             <div class="element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-sepia image-filter-onhover">
-                               <a href="{{ portal_url('view') }}?key=http://dx.doi.org/10.13039/501100000923" class="figure-image magnific-vimeo" data-links="" target="_self" tip="">
+                               <a href="{{ portal_url('view') }}?key=https://doi.org/10.13039/501100000923" class="figure-image magnific-vimeo" data-links="" target="_self" tip="">
                                     <img src="{{ asset_url('images/ARC_stacked.jpg', 'core')}}" alt="" class="normalwidth logo-homepage">
                                 </a>
                             </div>
                             <div class="figure-caption text-center">
                                 <h3 class="figure-caption-title bordered bordered-small bordered-link">
-                                    <a href="{{ portal_url('view') }}?key=http://dx.doi.org/10.13039/501100000923" target="_self">ARC</a>
+                                    <a href="{{ portal_url('view') }}?key=https://doi.org/10.13039/501100000923" target="_self">ARC</a>
                                 </h3>
                             </div>
                         </div>

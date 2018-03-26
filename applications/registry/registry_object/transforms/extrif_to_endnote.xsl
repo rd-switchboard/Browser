@@ -193,10 +193,10 @@ TY  - DATA
             <xsl:when test="ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi']">
                 <xsl:choose>
                     <xsl:when test="string-length(substring-after(ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi'],'doi.org/'))>1">
-                        <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="substring-after(ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi'],'doi.org/')"/>
+                        <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="substring-after(ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi'],'doi.org/')"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi']"/>
+                        <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="ro:collection/ro:citationInfo/ro:citationMetadata/ro:identifier[@type='doi']"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
@@ -240,10 +240,10 @@ TY  - DATA
             <xsl:when test="ro:collection/ro:identifier[@type='doi']">
                 <xsl:choose>
                     <xsl:when test="string-length(substring-after(ro:collection/ro:identifier[@type='doi'],'doi.org/'))>1">
-                        <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="substring-after(ro:collection/ro:identifier[@type='doi'],'doi.org/')"/>
+                        <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="substring-after(ro:collection/ro:identifier[@type='doi'],'doi.org/')"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>http://dx.doi.org/</xsl:text><xsl:value-of select="ro:collection/ro:identifier[@type='doi']"/>
+                        <xsl:text>https://doi.org/</xsl:text><xsl:value-of select="ro:collection/ro:identifier[@type='doi']"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
