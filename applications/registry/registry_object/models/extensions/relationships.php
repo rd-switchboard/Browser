@@ -443,8 +443,8 @@ class Relationships_Extension extends ExtensionBase
 		        return 'PURL : <a class="identifier" href="'.$urlValue.'" title="Resolve this purl identifier">'.$value.'<img class="identifier_logo" src="'.asset_url('assets/core/images/icons/external_link.png', 'base_path').'" alt="PURL icon"></a><br/>';
 		        break;
 		    case 'doi':
-		    	if (strpos($value,'http://dx.doi.org/') === false){
-    				$urlValue = 'http://dx.doi.org/'.$value;
+		    	if (strpos($value,'https://doi.org/') === false){
+    				$urlValue = 'https://doi.org/'.$value;
 				}
 		        return 'DOI: <a class="identifier" href="'.$urlValue.'" title="Resolve this DOI">'.$value.'<img class="identifier_logo" src="'.asset_url('assets/core/images/icons/doi_icon.png', 'base_path').'" alt="DOI icon"></a><br/>';
 		        break;
